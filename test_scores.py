@@ -3,14 +3,15 @@
 # display a welcome message
 print("The Test Scores program")
 print()
-print("Enter test scores")
-print("Enter 'end' to end input")
-print("======================")
-
-
-
 choice = "y"
 while choice.lower() == "y":
+    print("Enter test scores")
+    print("Enter 'end' to end input")
+    print("======================")
+
+
+
+
     # initialize variables:
     counter = 0
     score_total = 0
